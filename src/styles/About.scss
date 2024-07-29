@@ -1,0 +1,26 @@
+.aboutContainer{
+    max-width: 48vw;
+    margin: auto;
+    color: #fff;
+    margin-top: 25rem;
+    .aboutContent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .aboutImage{
+        img{
+            border-radius: 100px;
+        }
+    }
+    .aboutResume{
+        max-width: 25vw;
+        line-height: 2rem;
+    }
+    hr{
+        margin: 1rem;
+    }
+    .aboutInfo{
+        padding: 1rem;
+    }
+}

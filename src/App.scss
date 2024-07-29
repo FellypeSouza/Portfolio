@@ -1,0 +1,29 @@
+body{
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+}
+.emphasis{
+    color: burlywood;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    .btnContact{
+        padding: 1.25rem;
+        border-radius: 50px;
+        border: none;
+        background-color: burlywood;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    .btnContact:hover{
+        background-color: rgb(255, 217, 167);
+        transition: all 250ms;
+    }
+    .btnContact:not(:hover){
+        transition: all 250ms;
+    }
+}
