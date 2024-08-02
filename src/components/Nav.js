@@ -2,12 +2,12 @@ import '../styles/Nav.scss';
 
 export default function Nav(){
     return(
-        <section className="navContainer">
+        <section className="navContainer" id="inicio">
             <p>Fellype Souza</p>
             <nav>
-                <a href="#">Início</a>
-                <a href="#">Sobre</a>
-                <a href="#">Portfólio</a>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#portfolio">Portfólio</a>
                 <a href="#">Contato</a>
             </nav>
         </section>

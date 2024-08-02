@@ -4,26 +4,26 @@ body{
     background: linear-gradient(to right, #434343, #000000);
 }
 .emphasis{
-    color: burlywood;
+    color: #7cb1cc;
 }
 .btnContainer{
     display: flex;
     justify-content: center;
-    .btnContact{
-        padding: 1.25rem;
-        border-radius: 50px;
-        border: none;
-        background-color: burlywood;
-        font-size: 1rem;
-        font-weight: 600;
-        cursor: pointer;
-        
-    }
-    .btnContact:hover{
-        background-color: rgb(255, 217, 167);
-        transition: all 250ms;
-    }
-    .btnContact:not(:hover){
-        transition: all 250ms;
-    }
+}
+.btnContact{
+    padding: 1.25rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #7cb1cc;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.btnContact:hover{
+    background-color: #9ddeff;
+    transition: all 250ms;
+}
+.btnContact:not(:hover){
+    transition: all 250ms;
 }

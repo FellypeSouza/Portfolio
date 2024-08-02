@@ -1,0 +1,27 @@
+.infoContainer{
+    max-width: 48vw;
+    margin: auto;
+    margin-top: 25rem;
+    color: #fff;
+    h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .infoDescription{
+        max-width: 24vw;
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        
+        h1{
+            text-align: left;
+        }
+        
+        img{
+            border-radius: 250px;
+        }
+    }
+}
