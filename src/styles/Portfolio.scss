@@ -1,7 +1,14 @@
 .portfolioContainer{
-    max-width: 48vw;
+    max-width: 64vw;
     margin: auto;
     color: #fff;
-    margin-top: 20rem;
+    margin-top: 25rem;
     
+    .pItem{
+        margin: 0.30rem;
+        
+    }
+    .landingPages{
+        margin-top: 5rem;
+    }
 }

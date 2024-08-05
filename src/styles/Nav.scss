@@ -9,5 +9,12 @@
         a{
             margin: 2rem;
         }
+        a:hover{
+            transition: all 250ms;
+            color: #7cb1cc;
+        }
+        a:not(:hover){
+            transition: all 250ms;
+        }
     }
 }

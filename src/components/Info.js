@@ -7,7 +7,7 @@ export default function Info(){
             
             <section className="info" id="sobre">
                 <section className="infoDescription">
-                    <h1>Fellype Souza</h1>
+                    <h1>Fellype Souza<hr/></h1>
                     <h3>Meu compromisso é transformar suas ideias em uma presença online poderosa e eficiente. Juntos, podemos criar 
                         uma plataforma que eleva sua marca,atrai mais visitantes e converte leads em clientes satisfeitos. Deixe-me ajudar 
                         você a alcançar o sucesso digital que seu negócio merece. Vamos começar essa jornada incrível!
