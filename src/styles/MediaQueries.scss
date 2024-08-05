@@ -1,0 +1,45 @@
+@import "./Nav.scss";
+@import "./About.scss";
+@import "./Contact.scss";
+@import "./Info.scss";
+@import "./HeadLine.scss";
+@import "../App.scss";
+
+@media(max-width:1660px){
+    .infoContainer{
+        .info{
+            flex-direction: column-reverse;
+            .infoDescription{
+                hr{
+                    display: none;
+                }
+                h1{
+                    text-align: center;
+                }
+                h3{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    .btnContact{
+        text-align: center;
+    }
+}
+@media(max-width:700px) {
+    .headLineContainer{
+        h1{
+            font-size: 2rem;
+        }
+    }
+}
+@media(max-width:630px) {
+    .navContainer{
+        justify-content: space-between;
+        nav{
+            a{
+                margin: 0.50rem;
+            }
+        }
+    }
+}

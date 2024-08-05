@@ -4,8 +4,9 @@ import HeadLine from './components/HeadLine';
 import About from './components/About';
 import Info from './components/Info';
 import Portfolio from './components/Portfolio';
-
-
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import "./styles/MediaQueries.scss";
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <About/>
       <Info/>
       <Portfolio/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
