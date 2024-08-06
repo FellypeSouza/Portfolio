@@ -18,10 +18,10 @@ export default function Portfolio(){
                     <a rel="noreferrer" href="https://fellypesouza.github.io/Ecommerce/" target="_blank" className="pItem">
                         <img className="pImage" src={website2} width={400} alt="website"/>
                     </a> 
-                    <a rel="noreferrer" href="#"  className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza"  className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a rel="noreferrer" href="#" className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza" className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>   
                 </section>
@@ -33,25 +33,25 @@ export default function Portfolio(){
                     <a rel="noreferrer" href="https://fellypesouza.github.io/Landing-Page--MK-Digital/" target="_blank" className="pItem">
                         <img className="pImage" src={landingPage2} width={400} alt="website"/>
                     </a>
-                    <a rel="noreferrer" href="#" className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza" className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a rel="noreferrer" href="#" className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza" className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>   
                 </section>
                 <section className="webApps">
                     <h1>Web Apps</h1>
-                    <a rel="noreferrer" href="#" className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza" className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a rel="noreferrer" href="#" className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza" className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a rel="noreferrer" href="#" className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza" className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a rel="noreferrer" href="#" className="pItem">
+                    <a rel="noreferrer" href="https://github.com/FellypeSouza" className="pItem">
                         <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>   
                 </section>
