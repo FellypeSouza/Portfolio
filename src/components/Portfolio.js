@@ -11,48 +11,48 @@ export default function Portfolio(){
         <section className="portfolioContainer" id="portfolio">
             <section className="portfolios">
                 <section className="websites">
-                    <h1>Websites<hr/></h1>
+                    <h1>Websites</h1>
                     <a href="https://fellypesouza.github.io/CloneSitePorsche/" target="_blank" className="pItem">
-                        <img src={website1} width={400}/>
+                        <img className="pImage" src={website1} width={400}/>
                     </a>
                     <a href="https://fellypesouza.github.io/Ecommerce/" target="_blank" className="pItem">
-                        <img src={website2} width={400}/>
-                    </a>
+                        <img className="pImage" src={website2} width={400}/>
+                    </a> 
                     <a  className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>
                     <a className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>   
                 </section>
                 <section className="landingPages">
-                    <h1>Landing Pages<hr/></h1>
+                    <h1>Landing Pages</h1>
                     <a href="https://fellypesouza.github.io/Landing-Page--Curso-Dev/" target="_blank" className="pItem">
-                        <img src={landingPage1} width={400}/>
+                        <img className="pImage" src={landingPage1} width={400}/>
                     </a>
                     <a href="https://fellypesouza.github.io/Landing-Page--MK-Digital/" target="_blank" className="pItem">
-                        <img src={landingPage2} width={400}/>
+                        <img className="pImage" src={landingPage2} width={400}/>
                     </a>
                     <a className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>
                     <a className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>   
                 </section>
                 <section className="webApps">
-                    <h1>Web Apps<hr/></h1>
+                    <h1>Web Apps</h1>
                     <a className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>
                     <a className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>
                     <a className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>
                     <a className="pItem">
-                        <img src={empty} width={400}/>
+                        <img className="pImage" src={empty} width={400}/>
                     </a>   
                 </section>
             </section>
