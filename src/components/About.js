@@ -13,7 +13,7 @@ export default function About(){
                     <b className="emphasis">atrai</b> mais visitantes e converte leads em clientes satisfeitos. Deixe-me ajudar você a alcançar o <b className="emphasis">sucesso digital</b> que seu negócio merece. Vamos começar essa jornada incrível!
                 </h1>
                 <section className="btnContainer">
-                    <a href="https://wa.me/5519971476004?text=" target="_blank"><button className="btnContact">Entre em contato!</button></a>
+                    <a href="https://wa.me/5519971476004?text=" rel="noreferrer" target="_blank"><button className="btnContact">Entre em contato!</button></a>
                 </section>
             </section>
         </section>

@@ -5,10 +5,10 @@ export default function Nav(){
         <section className="navContainer" id="inicio">
             <p>Fellype Souza</p>
             <nav>
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#portfolio">Portfólio</a>
-                <a href="#">Contato</a>
+                <a rel="noreferrer" href="#inicio">Início</a>
+                <a rel="noreferrer" href="#sobre">Sobre</a>
+                <a rel="noreferrer" href="#portfolio">Portfólio</a>
+                <a rel="noreferrer" href="#contato">Contato</a>
             </nav>
         </section>
     );

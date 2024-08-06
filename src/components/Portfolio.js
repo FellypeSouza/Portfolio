@@ -12,47 +12,47 @@ export default function Portfolio(){
             <section className="portfolios">
                 <section className="websites">
                     <h1>Websites</h1>
-                    <a href="https://fellypesouza.github.io/CloneSitePorsche/" target="_blank" className="pItem">
-                        <img className="pImage" src={website1} width={400}/>
+                    <a rel="noreferrer" href="https://fellypesouza.github.io/CloneSitePorsche/" target="_blank" className="pItem">
+                        <img className="pImage" src={website1} width={400} alt="website"/>
                     </a>
-                    <a href="https://fellypesouza.github.io/Ecommerce/" target="_blank" className="pItem">
-                        <img className="pImage" src={website2} width={400}/>
+                    <a rel="noreferrer" href="https://fellypesouza.github.io/Ecommerce/" target="_blank" className="pItem">
+                        <img className="pImage" src={website2} width={400} alt="website"/>
                     </a> 
-                    <a  className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#"  className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#" className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>   
                 </section>
                 <section className="landingPages">
                     <h1>Landing Pages</h1>
-                    <a href="https://fellypesouza.github.io/Landing-Page--Curso-Dev/" target="_blank" className="pItem">
-                        <img className="pImage" src={landingPage1} width={400}/>
+                    <a rel="noreferrer" href="https://fellypesouza.github.io/Landing-Page--Curso-Dev/" target="_blank" className="pItem">
+                        <img className="pImage" src={landingPage1} width={400} alt="website"/>
                     </a>
-                    <a href="https://fellypesouza.github.io/Landing-Page--MK-Digital/" target="_blank" className="pItem">
-                        <img className="pImage" src={landingPage2} width={400}/>
+                    <a rel="noreferrer" href="https://fellypesouza.github.io/Landing-Page--MK-Digital/" target="_blank" className="pItem">
+                        <img className="pImage" src={landingPage2} width={400} alt="website"/>
                     </a>
-                    <a className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#" className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#" className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>   
                 </section>
                 <section className="webApps">
                     <h1>Web Apps</h1>
-                    <a className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#" className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#" className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#" className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>
-                    <a className="pItem">
-                        <img className="pImage" src={empty} width={400}/>
+                    <a rel="noreferrer" href="#" className="pItem">
+                        <img className="pImage" src={empty} width={400} alt="website"/>
                     </a>   
                 </section>
             </section>
