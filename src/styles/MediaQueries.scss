@@ -42,8 +42,61 @@
 }
 @media(max-width:700px) {
     .headLineContainer{
+        max-width: 88vw;
+        margin: auto;
+        margin-top: 20rem;
         h1{
-            font-size: 2rem;
+            font-size: 1.25rem;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        
+    }
+    .aboutContainer{
+        max-width: 88vw;
+        
+        margin-top: 25rem;
+        .aboutContent{
+            line-height: 2rem;
+            
+        }
+        h1{
+            font-size: 1rem;
+        }
+       
+    }
+    .infoContainer{
+        max-width: 88vw;
+        .infoDescription{
+            max-width: 88vw;
+        }
+        .info{
+            text-align: center; 
+            img{
+                width: 125px;
+            }
+        }
+    }
+    .portfolioContainer{
+        max-width: 88vw;
+        margin: auto;
+        color: #fff;
+        margin-top: 25rem;
+
+        img{
+            width: 250px;
+        }
+        
+        .pItem{
+            margin: 0.30rem;
+            
+        }
+        .landingPages{
+            margin-top: 5rem;
+        }
+        .webApps{
+            margin-top: 5rem;
         }
     }
 }
@@ -63,5 +116,65 @@
 @media(max-width:430px) {
     .pImage{
         width: 125px;
+    }
+}
+@media(max-width:375px){
+    .headLineContainer{
+        max-width: 88vw;
+        margin: auto;
+        margin-top: 10rem;
+        h1{
+            font-size: 1.25rem;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        
+    }
+    .aboutContainer{
+        max-width: 88vw;
+        
+        margin-top: 25rem;
+        .aboutContent{
+            line-height: 2rem;
+            
+        }
+        h1{
+            font-size: 1rem;
+        }
+       
+    }
+    .infoContainer{
+        max-width: 88vw;
+        .infoDescription{
+            max-width: 88vw;
+        }
+        .info{
+            text-align: center; 
+            img{
+                width: 125px;
+            }
+        }
+    }
+    .portfolioContainer{
+        max-width: 88vw;
+        margin: auto;
+        color: #fff;
+        margin-top: 25rem;
+
+        img{
+            width: 250px;
+        }
+        
+        .pItem{
+            margin: 0.30rem;
+            
+        }
+        .landingPages{
+            margin-top: 5rem;
+        }
+        .webApps{
+            margin-top: 5rem;
+        }
     }
 }
