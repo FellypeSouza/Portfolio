@@ -15,7 +15,7 @@ export default function Info(){
                     <button className="btnContact">Entre em contato!</button>
                 </section>
                 <section className="infoImage">
-                    <img src={aboutImage} width={300} alt="image"/>
+                    <img src={aboutImage} width={300} alt="fellype souza"/>
                 </section>
             </section>
         </section>
