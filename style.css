@@ -1,7 +1,9 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     background-color: #0c0c0c;
     font-family: "Roboto", serif;
 }
@@ -14,14 +16,44 @@ a{
     justify-content: space-evenly;
     align-items: center;
     margin: 1rem;
-    a{
-        margin: 2rem;
+    .navLinks{
+        a{
+            margin: 2rem;
+        }
+        a:hover{
+            color: #b3b0b0;
+            transition: all 250ms;
+        }
+        a:not(:hover){
+            transition: all 250ms;
+        }
+
     }
-    a:hover{
-        color: #b3b0b0;
-        transition: all 250ms;
+}
+.contactBtn{
+    padding: 0.75rem;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.contactBtn:hover{
+    background-color: rgb(148, 148, 148);
+    transition: all 250ms;
+}
+.contactBtn:not(:hover){
+    transition: all 250ms;
+}
+.header{
+    color: #fff;
+    max-width: 940px;
+    margin: auto;
+    .headerTitle{
+        margin-top: 10rem;
+        font-size: 3rem;
     }
-    a:not(:hover){
-        transition: allsadas 250ms;
+    .headerDescription{
+        margin-top: 1.25rem;
+        line-height: 2rem;
     }
 }
