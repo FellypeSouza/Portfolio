@@ -1,0 +1,17 @@
+.experienceContainer{
+    color: #fff;
+    margin-top: 15rem;
+    .experienceTitle{
+        text-align: center;
+        font-size: 2.5rem;
+    }   
+    .experienceContent{
+        max-width: 750px;
+        margin: auto;
+        margin-top: 2rem;
+        .downloadCv{
+            margin-top: 1rem;
+            text-align: center;
+        }
+    }
+}
