@@ -12,6 +12,21 @@
         .downloadCv{
             margin-top: 1rem;
             text-align: center;
+            button{
+                padding: 1rem;
+                border: none;
+                border-radius: 50px;
+                background-color: rgb(40, 133, 255);
+                color: #fff;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: rgb(92, 160, 250);
+                transition: all 250ms;
+            }
+            button:not(:hover){
+                transition: all 250ms;
+            }
         }
     }
 }
