@@ -15,7 +15,7 @@
         .projects{
             display: grid;
             gap: 0.5rem;
-            grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+            grid-template-columns: repeat(auto-fit, minmax(300px, auto));
             justify-content: center;
             max-width: 1000px;
             margin: auto;
