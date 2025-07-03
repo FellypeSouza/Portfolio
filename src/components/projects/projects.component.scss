@@ -13,12 +13,12 @@
     .projectsContent{
         margin-top: 2rem;
         .projects{
-            display: grid;
-            gap: 0.5rem;
-            grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-            justify-content: center;
             max-width: 1000px;
             margin: auto;
+            display: grid;
+            gap: 0.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+            justify-content: center;
             .project{
                 width: 250px;
                 text-align: start;

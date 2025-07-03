@@ -9,8 +9,9 @@
         max-width: 750px;
         margin: auto;
         margin-top: 2rem;
+        font-weight: 200;
         .downloadCv{
-            margin-top: 1rem;
+            margin-top: 2rem;
             text-align: center;
             button{
                 padding: 1rem;
@@ -27,6 +28,14 @@
             button:not(:hover){
                 transition: all 250ms;
             }
+        }
+    }
+}
+@media (max-width:780px) {
+    .experienceContainer{
+        .experienceContent{
+            max-width: 400px;
+            text-align: center;
         }
     }
 }

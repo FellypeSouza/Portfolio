@@ -51,3 +51,13 @@ header{
         color: rgb(100, 162, 255);
     }
 }
+@media (max-width:610px) {
+    header{
+        .headerButtons{
+            display: grid;
+            justify-content: center;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        }
+    }
+}

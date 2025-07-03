@@ -11,7 +11,7 @@
         margin-top: 2rem;
         
         .aboutMeText{
-            width: 400px;
+            width: 300px;
             margin: 0 0 0 1rem;
             h1{
                 font-size: 1.5rem;
@@ -22,8 +22,18 @@
                 line-height: 1.5rem;
             }
         }
-        .aboutMePicture{
-            border: 1px solid rgb(93, 108, 247);
+    }
+}
+@media (max-width:770px) {
+    .aboutMeContainer{
+        .aboutMeContent{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .aboutMeText{
+                margin: 1rem;
+                text-align: center;
+            }
         }
     }
 }

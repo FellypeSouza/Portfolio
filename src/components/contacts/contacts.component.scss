@@ -31,3 +31,14 @@
         }
     }
 }
+@media (max-width:465px) {
+    .contactsContainer{
+        .contactsButtons{
+            display: flex;
+            flex-direction: column;
+            .contactBtn{
+                margin: 1rem;
+            }
+        }
+    }
+}
