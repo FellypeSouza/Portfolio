@@ -8,9 +8,9 @@
     <li>Angular</li>
     <li>Typescript</li>
   </ul>
-  <img src="./images/projectImage1.png"/>
-  <img src="./images/projectImage2.png"/>
-  <img src="./images/projectImage3.png"/>
-  <img src="./images/projectImage4.png"/>
-  <img src="./images/projectImage5.png"/>
+  <img src="./public/images/projectImage1.png"/>
+  <img src="./public/images/projectImage2.png"/>
+  <img src="./public/images/projectImage3.png"/>
+  <img src="./public/images/projectImage4.png"/>
+  <img src="./public/images/projectImage5.png"/>
 </section>
