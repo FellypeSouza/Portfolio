@@ -10,6 +10,22 @@ a{
     text-decoration: none;
     color: #fff;
 }
+.specialButton{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 40px#ffffffb9;
+    font-weight: 600;
+}
+.specialButton:hover{
+    box-shadow: 1px 1px 80px #0004ffb9;
+    transition: all 250ms;
+}
+.specialButton:not(:hover){
+    transition: all 250ms;
+}
 main{
     nav{
         display: flex;
@@ -29,6 +45,13 @@ main{
         .navLinks{
             a{
                 margin: 1rem;
+            }
+            a:hover{
+                color: #818181;
+                transition: all 250ms;
+            }
+            a:not(:hover){
+                transition: all 250ms;
             }
         }
     }

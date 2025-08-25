@@ -13,6 +13,29 @@ a {
   color: #fff;
 }
 
+.specialButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  -webkit-box-shadow: 1px 1px 40px #ffffffb9;
+          box-shadow: 1px 1px 40px #ffffffb9;
+  font-weight: 600;
+}
+
+.specialButton:hover {
+  -webkit-box-shadow: 1px 1px 80px #0004ffb9;
+          box-shadow: 1px 1px 80px #0004ffb9;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.specialButton:not(:hover) {
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
 main nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,5 +69,16 @@ main nav .navLogo h1 {
 
 main nav .navLinks a {
   margin: 1rem;
+}
+
+main nav .navLinks a:hover {
+  color: #818181;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+main nav .navLinks a:not(:hover) {
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
 }
 /*# sourceMappingURL=style.css.map */
