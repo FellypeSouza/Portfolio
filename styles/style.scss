@@ -16,15 +16,18 @@ a{
     border-radius: 50px;
     cursor: pointer;
     border: none;
-    box-shadow: 1px 1px 40px#ffffffb9;
+    box-shadow: 1px 1px 20px#ffffffb9;
     font-weight: 600;
 }
 .specialButton:hover{
-    box-shadow: 1px 1px 80px #0004ffb9;
+    box-shadow: 1px 1px 80px rgb(129, 208, 245);
     transition: all 250ms;
 }
 .specialButton:not(:hover){
     transition: all 250ms;
+}
+.specialText{
+    color: rgb(129, 208, 245);
 }
 main{
     nav{
@@ -53,6 +56,19 @@ main{
             a:not(:hover){
                 transition: all 250ms;
             }
+        }
+    }
+    header{
+        max-width: 900px;
+        margin: auto;
+        margin-top: 10rem;
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            margin: 0;
+        }
+        h4{
+            font-weight: 400;
         }
     }
 }
