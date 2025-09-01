@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fellype Dev</title>
+    <link rel="shortcut icon" href="./styles/images/fellypedevLogo.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,11 +26,11 @@
                 <a href="#">Sobre</a>
                 <a href="#">Portfólio</a>
                 <a href="#">Contato</a>
-                <a href=""><button class="specialButton">ORÇAMENTO</button></a>
+                <a href=""><button class="specialButton" id="navButton">ORÇAMENTO</button></a>
             </section>
         </nav>
         <!-- Seção Principal -->
-        <header>
+        <header class="header">
             <h1>
                 Presença digital que conecta pessoas, 
                 <b class="specialText">gera confiança</b> 
@@ -37,9 +38,31 @@
                 <b class="specialText">impulsiona negócios.</b>
             </h1>
             <h4>Seu negócio merece uma presença online que transmite credibilidade e profissionalismo.</h4>
-            <button class="specialButton">Entre em contato</button>
+            <button class="specialButton">Entre em contato 🡢</button>
         </header>
+        <!-- Seção de Serviços oferecidos -->
+         <section class="services">
+            <h1>Serviços oferecidos</h1>
+            <section class="cards">
+                <section class="card">
+                    <img src="./styles/images/LandingPageIcon.png" alt="Landing Pages" width="70px"/>
+                    <h2>Landing Pages</h2>
+                    <p>Página única, sucinta e eficiente, com o objetivo de apresentar e converter.</p>
+                </section>
+                <section class="card">
+                    <img src="./styles/images/institutionIcon.png" alt="Sites institucionais" width="70px"/>
+                    <h2>Sites Institucionais</h2>
+                    <p>Página única, sucinta e eficiente, com o objetivo de apresentar e converter.</p>
+                </section>
+                <section class="card">
+                    <img src="./styles/images/ecommerceIcon.png" alt="E-Commerces" width="70px"/>
+                    <h2>E-Commerces</h2>
+                    <p>Página única, sucinta e eficiente, com o objetivo de apresentar e converter.</p>
+                </section>
+            </section>
+         </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 </html>
