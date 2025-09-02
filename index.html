@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,61 +9,191 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <main>
         <!-- Barra de navegação -->
-        <nav>
+        <nav id="nav">
             <section class="navLogo">
-                <img src="./styles/images/fellypedevLogo.png" alt="Fellype Souza" width="70px"/>
+                <img src="./styles/images/fellypedevLogo.png" alt="Fellype Souza" width="70px" />
                 <h1>Fellype Souza</h1>
             </section>
             <section class="navLinks">
-                <a href="#">Início</a>
-                <a href="#">Sobre</a>
-                <a href="#">Portfólio</a>
-                <a href="#">Contato</a>
-                <a href=""><button class="specialButton" id="navButton">ORÇAMENTO</button></a>
+                <a href="#nav">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#serviços">Serviços</a>
+                <a href="#portfolio">Portfólio</a>
+                <a href="#contato">Contato</a>
+                <a href="https://wa.me/5519971476004" target="_blank"><button class="specialButton" id="navButton">ORÇAMENTO</button></a>
             </section>
         </nav>
         <!-- Seção Principal -->
         <header class="header">
             <h1>
-                Presença digital que conecta pessoas, 
-                <b class="specialText">gera confiança</b> 
-                e 
+                Presença digital que conecta pessoas,
+                <b class="specialText">gera confiança</b>
+                e
                 <b class="specialText">impulsiona negócios.</b>
             </h1>
             <h4>Seu negócio merece uma presença online que transmite credibilidade e profissionalismo.</h4>
-            <button class="specialButton">Entre em contato 🡢</button>
+            <a href="https://wa.me/5519971476004" target="_blank"><button class="specialButton">Entre em contato 🡢</button></a>
         </header>
+        <!-- Seção Sobre mim -->
+        <section class="aboutMe" id="sobre">
+            <section class="aboutMeTitle">
+                <img src="./styles/images/fellypedevLogo.png" alt="Fellype Dev" width="60px" />
+                <h1>Sobre mim</h1>
+                <h3>O desenvolvedor ideal para o serviço que você precisa.</h3>
+            </section>
+            <section class="aboutMeInfo">
+                <p>
+                    Olá! Meu nome é Fellype Souza, tenho 20 anos e sou um desenvolvedor web apaixonado por criar
+                    soluções digitais
+                    inovadoras. Com uma sólida formação em desenvolvimento web e experiência prática em projetos reais,
+                    estou
+                    comprometido em transformar ideias em realidade.
+                </p>
+                <a href="https://wa.me/5519971476004" target="_blank"><button class="specialButton">Quero um orçamento 🡢</button></a>
+            </section>
+        </section>
         <!-- Seção de Serviços oferecidos -->
-         <section class="services">
+        <section class="services" id="serviços">
+            <img src="./styles/images/fellypedevLogo.png" width="60px" alt="Fellype Dev">
             <h1>Serviços oferecidos</h1>
             <section class="cards">
                 <section class="card">
-                    <img src="./styles/images/LandingPageIcon.png" alt="Landing Pages" width="70px"/>
+                    <img src="./styles/images/LandingPageIcon.png" alt="Landing Pages" width="70px" />
                     <h2>Landing Pages</h2>
                     <p>Página única, sucinta e eficiente, com o objetivo de apresentar e converter.</p>
+                    <section class="servicesTypes">
+                        <p>✓ Infoprodutos</p>
+                        <p>✓ Cursos</p>
+                    </section>
+                    <a href="https://wa.me/5519971476004?text=Ol%C3%A1%20Fellype%2C%20estava%20em%20seu%20site%2C%20gostei%20do%20portf%C3%B3lio%2C%20e%20quero%20criar%20o%20meu%21" target="_blank"><button class="specialButton">Quero uma Landing Page</button></a>
                 </section>
                 <section class="card">
-                    <img src="./styles/images/institutionIcon.png" alt="Sites institucionais" width="70px"/>
+                    <img src="./styles/images/institutionIcon.png" alt="Sites institucionais" width="70px" />
                     <h2>Sites Institucionais</h2>
                     <p>Página única, sucinta e eficiente, com o objetivo de apresentar e converter.</p>
+                    <section class="servicesTypes">
+                        <p>✓ Empresarial</p>
+                        <p>✓ Portfólio</p>
+                    </section>
+                    <a href="https://wa.me/5519971476004?text=Ol%C3%A1%20Fellype%2C%20estava%20em%20seu%20site%2C%20gostei%20do%20portf%C3%B3lio%2C%20e%20quero%20criar%20o%20meu%21" target="_blank"><button class="specialButton">Quero um Site Institucional</button></a>
                 </section>
                 <section class="card">
-                    <img src="./styles/images/ecommerceIcon.png" alt="E-Commerces" width="70px"/>
+                    <img src="./styles/images/ecommerceIcon.png" alt="E-Commerces" width="70px" />
                     <h2>E-Commerces</h2>
                     <p>Página única, sucinta e eficiente, com o objetivo de apresentar e converter.</p>
+                    <section class="servicesTypes">
+                        <p>✓ Loja Virtual</p>
+                        <p>✓ Venda por Whatsapp</p>
+                    </section>
+                    <a href="https://wa.me/5519971476004?text=Ol%C3%A1%20Fellype%2C%20estava%20em%20seu%20site%2C%20gostei%20do%20portf%C3%B3lio%2C%20e%20quero%20criar%20o%20meu%21" target="_blank"><button class="specialButton">Quero um E-Commerce</button></a>
                 </section>
             </section>
-         </section>
+        </section>
+        <!-- Seção de Trabalhos Realizados -->
+        <section class="jobsCompleted" id="portfolio">
+            <img src="./styles/images/fellypedevLogo.png" alt="Fellype Dev" width="60px" />
+            <h1>Trabalhos Realizados</h1>
+            <section class="jobs">
+                <section class="job">
+                    <section class="jobImage">
+                        <img src="./styles/images/job1.webp" width="400px" height="370px" alt="">
+                    </section>
+                    <section class="jobButton">
+                        <a href="https://wa.me/5519971476004?text=Ol%C3%A1%20Fellype%2C%20estava%20em%20seu%20site%2C%20gostei%20do%20portf%C3%B3lio%2C%20e%20quero%20criar%20o%20meu%21" target="_blank"><button class="specialButton">Quero um parecido</button></a>
+                    </section>
+                    <section class="jobInfo">
+                        <p>EMPRESA</p>
+                        <p>●</p>
+                        <p>Institucional - Categoria</p>
+                    </section>
+                </section>
+                <section class="job">
+                    <section class="jobImage">
+                        <img src="./styles/images/job1.webp" width="400px" height="370px" alt="">
+                    </section>
+                    <section class="jobButton">
+                        <a href="https://wa.me/5519971476004?text=Ol%C3%A1%20Fellype%2C%20estava%20em%20seu%20site%2C%20gostei%20do%20portf%C3%B3lio%2C%20e%20quero%20criar%20o%20meu%21" target="_blank"><button class="specialButton">Quero um parecido</button></a>
+                    </section>
+                    <section class="jobInfo">
+                        <p>EMPRESA</p>
+                        <p>●</p>
+                        <p>Institucional - Categoria</p>
+                    </section>
+                </section>
+                <section class="job">
+                    <section class="jobImage">
+                        <img src="./styles/images/job1.webp" width="400px" height="370px" alt="">
+                    </section>
+                    <section class="jobButton">
+                        <a href="https://wa.me/5519971476004?text=Ol%C3%A1%20Fellype%2C%20estava%20em%20seu%20site%2C%20gostei%20do%20portf%C3%B3lio%2C%20e%20quero%20criar%20o%20meu%21" target="_blank"><button class="specialButton">Quero um parecido</button></a>
+                    </section>
+                    <section class="jobInfo">
+                        <p>EMPRESA</p>
+                        <p>●</p>
+                        <p>Institucional - Categoria</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-- Seção de Contato -->
+        <section class="contact" id="contato">
+            <img src="./styles/images/secondFellypeDevLogo1.png" width="350px" alt="Fellype Dev">
+            <section class="contactInfo">
+                <p>Estou construindo meu portfólio e quero ajudar você a ter um site moderno, rápido e que realmente destaque o seu negócio.</p>
+            </section>
+            <section class="contactItems">
+                <section class="item">
+                    <section class="itemIcon">
+                        <img src="./styles/images/mapIcon.png" width="30px" alt="">
+                    </section>
+                    <section class="itemInfo">
+                        <p>Campinas, São Paulo</p>
+                    </section>
+                </section>
+                <a href="mailto:fellypedev2025@gmail.com" target="_blank">
+                    <section class="item">
+                        <section class="itemIcon">
+                            <img src="./styles/images/emailIcon.png" width="30px" alt="">
+                        </section>
+                        <section class="itemInfo">
+                            <p>fellypedev2025@gmail.com</p>
+                        </section>
+                    </section>
+                </a>
+                <a href="https://wa.me/5519971476004?text=Ol%C3%A1%20Fellype%2C%20estava%20em%20seu%20site%2C%20gostei%20do%20portf%C3%B3lio%2C%20e%20quero%20criar%20o%20meu%21" target="_blank">
+                    <section class="item">
+                        <section class="itemIcon">
+                            <img src="./styles/images/whatsappIcon.png" width="30px" alt="">
+                        </section>
+                        <section class="itemInfo">
+                            <p>+ 55 19 97147-6004</p>
+                        </section>
+                    </section>
+                </a>
+            </section>
+        </section>
+        <!-- Seção de Rodapé -->
+        <footer>
+            <section class="footerInfo">
+                <p>© 2024 Fellype Dev. Todos os direitos reservados.</p>
+            </section>
+        </footer>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
+
 </html>

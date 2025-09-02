@@ -84,6 +84,32 @@ main header h1 {
 main header h4 {
   font-weight: 400;
 }
+main .aboutMe {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15rem;
+}
+main .aboutMe .aboutMeTitle {
+  width: 600px;
+}
+main .aboutMe .aboutMeTitle img {
+  margin-bottom: 0.5rem;
+}
+main .aboutMe .aboutMeTitle h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin: 0;
+}
+main .aboutMe .aboutMeTitle h3 {
+  font-weight: 400;
+}
+main .aboutMe .aboutMeInfo {
+  width: 600px;
+  line-height: 30px;
+}
 main .services {
   max-width: 1200px;
   margin: auto;
@@ -103,4 +129,108 @@ main .services .cards {
 }
 main .services .cards .card {
   width: 300px;
+}
+main .services .servicesTypes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .services .specialButton {
+  width: 300px;
+}
+main .jobsCompleted {
+  max-width: 1800px;
+  margin: auto;
+  margin-top: 15rem;
+  text-align: center;
+}
+main .jobsCompleted h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+main .jobsCompleted .jobs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 2rem;
+}
+main .jobsCompleted .jobs .job {
+  width: 400px;
+  height: 370px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7254901961);
+  cursor: pointer;
+}
+main .jobsCompleted .jobs .job .jobImage img {
+  border-radius: 20px;
+}
+main .jobsCompleted .jobs .job .jobInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .jobsCompleted .jobs .job .jobButton {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 10px;
+}
+main .jobsCompleted .jobs .job .jobButton .specialButton {
+  width: 200px;
+}
+main .jobsCompleted .jobs .job:hover {
+  box-shadow: 1px 1px 30px rgb(129, 208, 245);
+  transition: all 250ms;
+}
+main .jobsCompleted .jobs .job:not(:hover) {
+  transition: all 250ms;
+}
+main .contact {
+  max-width: 1800px;
+  margin: auto;
+  margin-top: 15rem;
+  text-align: center;
+}
+main .contact .contactInfo {
+  max-width: 500px;
+  margin: auto;
+}
+main .contact .contactItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  justify-content: space-around;
+  margin: 2rem;
+}
+main .contact .contactItems .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 10px;
+  width: 370px;
+  height: 80px;
+  cursor: pointer;
+}
+main .contact .contactItems .item .itemIcon {
+  margin: 0.5rem;
+}
+main .contact .contactItems .item:hover {
+  box-shadow: 1px 1px 30px rgb(129, 208, 245);
+  transition: all 250ms;
+}
+main .contact .contactItems .item:not(:hover) {
+  transition: all 250ms;
+}
+main footer {
+  text-align: center;
+  margin: 2rem;
+  margin-top: 15rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1019607843);
+}
+main footer .footerInfo {
+  margin-top: 2rem;
+}
+main footer .footerInfo p {
+  font-size: 0.75rem;
 }/*# sourceMappingURL=style.css.map */
