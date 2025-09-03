@@ -150,9 +150,9 @@ main .jobsCompleted h1 {
 }
 main .jobsCompleted .jobs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(390px, auto));
   gap: 2rem;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 2rem;
 }
 main .jobsCompleted .jobs .job {
@@ -161,6 +161,7 @@ main .jobsCompleted .jobs .job {
   background-color: rgba(255, 255, 255, 0.1019607843);
   border-radius: 20px;
   box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7254901961);
+  margin-bottom: 2rem;
   cursor: pointer;
 }
 main .jobsCompleted .jobs .job .jobImage img {
@@ -197,7 +198,7 @@ main .contact .contactInfo {
 }
 main .contact .contactItems {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   gap: 2rem;
   justify-content: space-around;
   margin: 2rem;
@@ -233,4 +234,57 @@ main footer .footerInfo {
 }
 main footer .footerInfo p {
   font-size: 0.75rem;
+}
+
+@media (max-width: 860px) {
+  main nav .navLogo h1 {
+    font-size: 1.5rem;
+  }
+  main nav .navLinks a {
+    margin: 0.5rem;
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+  main nav {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  main nav .navLinks a {
+    margin: 0.5rem;
+  }
+  main nav .navLinks a button {
+    display: none;
+  }
+  main header {
+    margin-top: 5rem;
+  }
+  main header h1 {
+    font-size: 2.5rem;
+  }
+  main .aboutMe {
+    flex-direction: column;
+    text-align: center;
+  }
+  main .aboutMe .aboutMeTitle, main .aboutMe .aboutMeInfo {
+    width: 90%;
+  }
+  main .services .cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  main .services .specialButton {
+    width: 90%;
+  }
+  main .jobsCompleted .jobs {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  main .jobsCompleted .jobs .job {
+    margin-bottom: 3rem;
+  }
+  main .contact .contactItems {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

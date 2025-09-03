@@ -145,9 +145,9 @@ main{
         }
         .jobs{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+            grid-template-columns: repeat(auto-fit, minmax(390px, auto));
             gap: 2rem;
-            justify-content: space-between;
+            justify-content: space-around;
             margin: 2rem;
             .job{
                 width: 400px;
@@ -155,6 +155,7 @@ main{
                 background-color: #ffffff1a;
                 border-radius: 20px;
                 box-shadow: 1px 1px 10px#ffffffb9;
+                margin-bottom: 2rem;
                 cursor: pointer;
                 .jobImage{
                     img{
@@ -194,7 +195,7 @@ main{
         }
         .contactItems{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+            grid-template-columns: repeat(auto-fit, minmax(350px, auto));
             gap: 2rem;
             justify-content: space-around;
             margin: 2rem;
@@ -231,6 +232,78 @@ main{
                 font-size: 0.75rem;
             }
 
+        }
+    }
+}
+@media(max-width: 860px){
+    main{
+        nav{
+            .navLogo{
+                h1{
+                    font-size: 1.5rem;
+                }
+            }
+            .navLinks{
+                a{
+                    margin: 0.5rem;
+                    font-size: 0.85rem;
+                    button{
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    main{
+        nav{
+            padding: 1rem;
+            flex-direction: column;
+            .navLinks{
+                a{
+                    margin: 0.5rem;
+                    button{
+                        display: none;
+                    }
+                }
+            }
+        }
+        header{
+            margin-top: 5rem;
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+        .aboutMe{
+            flex-direction: column;
+            text-align: center;
+            .aboutMeTitle, .aboutMeInfo{
+                width: 90%;
+            }
+        }
+        .services{
+            .cards{
+                grid-template-columns: 1fr;
+                justify-items: center;
+            }
+            .specialButton{
+                width: 90%;
+            }
+        }
+        .jobsCompleted{
+            .jobs{
+                grid-template-columns: 1fr;
+                justify-items: center;
+                .job{
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+        .contact{
+            .contactItems{
+                grid-template-columns: 1fr;
+                justify-items: center;
+            }
         }
     }
 }
