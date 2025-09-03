@@ -152,7 +152,7 @@ main .jobsCompleted .jobs {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(390px, auto));
   gap: 2rem;
-  justify-content: space-around;
+  justify-content: center;
   margin: 2rem;
 }
 main .jobsCompleted .jobs .job {
@@ -200,7 +200,7 @@ main .contact .contactItems {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   gap: 2rem;
-  justify-content: space-around;
+  justify-content: center;
   margin: 2rem;
 }
 main .contact .contactItems .item {
@@ -248,16 +248,16 @@ main footer .footerInfo p {
 @media (max-width: 768px) {
   main nav {
     padding: 1rem;
-    flex-direction: column;
   }
   main nav .navLinks a {
     margin: 0.5rem;
-  }
-  main nav .navLinks a button {
     display: none;
   }
+  main nav .navLinks a button {
+    display: block;
+  }
   main header {
-    margin-top: 5rem;
+    margin-top: 11rem;
   }
   main header h1 {
     font-size: 2.5rem;
@@ -286,5 +286,13 @@ main footer .footerInfo p {
   main .contact .contactItems {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+}
+@media (max-width: 500px) {
+  main .jobsCompleted .jobs .job {
+    width: 370px;
+  }
+  main .jobsCompleted .jobs .job .jobImage img {
+    width: 370px;
   }
 }/*# sourceMappingURL=style.css.map */

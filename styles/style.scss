@@ -147,7 +147,7 @@ main{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(390px, auto));
             gap: 2rem;
-            justify-content: space-around;
+            justify-content: center;
             margin: 2rem;
             .job{
                 width: 400px;
@@ -197,7 +197,7 @@ main{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, auto));
             gap: 2rem;
-            justify-content: space-around;
+            justify-content: center;
             margin: 2rem;
             .item{
                 display: flex;
@@ -258,18 +258,18 @@ main{
     main{
         nav{
             padding: 1rem;
-            flex-direction: column;
             .navLinks{
                 a{
                     margin: 0.5rem;
+                    display: none;
                     button{
-                        display: none;
+                        display: block;
                     }
                 }
             }
         }
         header{
-            margin-top: 5rem;
+            margin-top: 11rem;
             h1{
                 font-size: 2.5rem;
             }
@@ -303,6 +303,22 @@ main{
             .contactItems{
                 grid-template-columns: 1fr;
                 justify-items: center;
+            }
+        }
+    }
+}
+@media(max-width: 500px){
+    main{
+        .jobsCompleted{
+            .jobs{
+                .job{
+                    width: 370px;
+                    .jobImage{
+                        img{
+                            width: 370px;
+                        }
+                    }
+                }
             }
         }
     }
