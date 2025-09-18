@@ -1,4 +1,5 @@
 const navButton = document.getElementById('navButton');
+const nav = document.querySelector('#nav');
 const header = document.querySelector('.header');
 const aboutMe = document.querySelector('.aboutMe');
 const services = document.querySelector('.services');
@@ -22,66 +23,79 @@ document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
     });
 });
 
-    /* Animação de Entrada da Seção Sobre Mim */
-    gsap.from(aboutMe, {
-        opacity: 0,
-        y: 50,
-        duration: 1,
-        scrollTrigger: {
-            trigger: aboutMe,
-            start: "top 80%",
-            toggleActions: "play none none reverse",
-        }
-    });
+/* Animação de Entrada da Seção Nav */
+gsap.from(nav, {
+    opacity: 0,
+    y: -50,
+    duration: 1,
+    scrollTrigger: {
+        trigger: nav,
+        start: "top 80%",
+        toggleActions: "play none none reverse",
+    }
+});
 
-    /* Animação de Entrada da Seção Serviços Oferecidos */
-    gsap.from(services, {
-        opacity: 0,
-        y: 50,
-        duration: 1,
-        scrollTrigger: {
-            trigger: services,
-            start: "top 80%",
-            toggleActions: "play none none reverse",
-        }
-    })
 
-    /* Animação de Entrada da Seção Serviços Concluídos */
-    gsap.from(jobsCompleted, {
-        opacity: 0,
-        y: 50,
-        duration: 1,
-        scrollTrigger: {
-            trigger: jobsCompleted,
-            start: "top 80%",
-            toggleActions: "play none none reverse",
-        }
-    })
+/* Animação de Entrada da Seção Sobre Mim */
+gsap.from(aboutMe, {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+        trigger: aboutMe,
+        start: "top 80%",
+        toggleActions: "play none none reverse",
+    }
+});
 
-    /* Animação de Entrada da Seção Contato */
-    gsap.from(contact, {
-        opacity: 0,
-        y: 50,
-        duration: 1,
-        scrollTrigger: {
-            trigger: contact,
-            start: "top 80%",
-            toggleActions: "play none none reverse",
-        }
-    })
+/* Animação de Entrada da Seção Serviços Oferecidos */
+gsap.from(services, {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+        trigger: services,
+        start: "top 80%",
+        toggleActions: "play none none reverse",
+    }
+})
 
-    /* Animação constante do NavButton */
-    gsap.to(navButton, {
-        scale: 1.1,
-        duration: 1,
-        yoyo: true,
-        repeat: -1,
-    })
+/* Animação de Entrada da Seção Serviços Concluídos */
+gsap.from(jobsCompleted, {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+        trigger: jobsCompleted,
+        start: "top 80%",
+        toggleActions: "play none none reverse",
+    }
+})
 
-    /* Animação de entrada do Header */
-    gsap.fromTo(header,
-        { opacity: 0, y: -50 },
-        { opacity: 1, y: 0, duration: 1.5, ease: "power2.out" }
-    );
+/* Animação de Entrada da Seção Contato */
+gsap.from(contact, {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+        trigger: contact,
+        start: "top 80%",
+        toggleActions: "play none none reverse",
+    }
+})
+
+/* Animação constante do NavButton */
+gsap.to(navButton, {
+    scale: 1.1,
+    duration: 1,
+    yoyo: true,
+    repeat: -1,
+})
+
+/* Animação de entrada do Header */
+gsap.fromTo(header,
+    { opacity: 0, y: -50 },
+    { opacity: 1, y: 0, duration: 1.5, ease: "power2.out" }
+);
 
 
